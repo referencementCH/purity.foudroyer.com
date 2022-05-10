@@ -1282,17 +1282,17 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@foudroyer/interfaces@0.0.14":
-  version "0.0.14"
-  resolved "https://registry.yarnpkg.com/@foudroyer/interfaces/-/interfaces-0.0.14.tgz#a6bb6e3db01b6393d48b1ba63c82e1e00e17fbf2"
-  integrity sha512-/S98ZHxdXXCe/scEtWb3I90HXu0Bsr4XJTO0QEtnbIKVjLKWve1Qac0t/VqHq0BdW09n/xqSM8kLTpc5nUZ3kw==
+"@foudroyer/interfaces@*":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@foudroyer/interfaces/-/interfaces-0.2.1.tgz#5a9725e38a174fabf80fec5996a3ab7018e5a294"
+  integrity sha512-Ekp6EbHqcWVwQI5SdAUn/G3EflzZBAvMwchkNp1saTqAwZA5EavfWbk4ops6U5yAYWGcVkXSJDHxu4rq4+M7ZA==
 
 "@foudroyer/purity@^1.0.6":
-  version "1.18.0"
-  resolved "https://registry.yarnpkg.com/@foudroyer/purity/-/purity-1.18.0.tgz#60034e956ff643474c411e94dd62bda4dec1886f"
-  integrity sha512-pcSv0zyvwlQCUCEgoOa68Hn6r0y/PwXD3EyvBpnNqyooVgYXRWXNbIT6HtdovBPMG6TuRYZKgsTBBYZK5xmSyw==
+  version "1.18.1"
+  resolved "https://registry.yarnpkg.com/@foudroyer/purity/-/purity-1.18.1.tgz#df6948cbd44113f488b288e6017fd08f45700281"
+  integrity sha512-92SuIpnwaeugCdXbiwUe5gEyQbT55Xc6YOlApIL/V4pHnJQwFofCcqx1iocg7QgxohQ7ln1UUErdmRl00yZfMA==
   dependencies:
-    "@foudroyer/interfaces" "0.0.14"
+    "@foudroyer/interfaces" "*"
     "@headlessui/react" "1.5.0"
     "@heroicons/react" "1.0.6"
     axios "0.26.1"
@@ -9697,9 +9697,9 @@ keyv@^3.0.0:
     json-buffer "3.0.0"
 
 keyv@^4.0.0:
-  version "4.2.5"
-  resolved "https://registry.yarnpkg.com/keyv/-/keyv-4.2.5.tgz#ee4ec65995800ce86de2d4d90ceeb587a14fb138"
-  integrity sha512-WQpVVZvax2BpGIXviWPnBuwbTPd3qcMcmsWzJJWKyV5r3JUw5kEkbs5FguywUxd+Oi4OpuSmDQE5qtH51u9Hqw==
+  version "4.2.6"
+  resolved "https://registry.yarnpkg.com/keyv/-/keyv-4.2.6.tgz#d698f061e71bab3c5ab70e43907d7b8baa1bab9c"
+  integrity sha512-mmMlAFwZnCBk7QDA23I49T5VP2NdSsbaT4yrm14cwnlQ67t+wHWPtYj+/gbzeAbcprGbUSzWP3jBE1WKfSERnQ==
   dependencies:
     compress-brotli "^1.3.8"
     json-buffer "3.0.1"
